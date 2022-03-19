@@ -33,7 +33,7 @@ java - jar final_project-0.0.3-SNAPSHOT.jar
 ```
 
 URL for Swagger:
-[Swagger](localhost:8080/swagger.html)
+[Swagger](http://localhost:8080/swagger.html)
 
 ## Exploitation steps
 
