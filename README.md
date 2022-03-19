@@ -6,20 +6,34 @@ It uses Log4j 2.14.1 (through `spring-boot-starter-log4j2` 2.6.1) and the JDK 1.
 
 ![](./screenshot.png)
 
+## Prequisites 
+
+Software Required:
+- Java 11 (OpenJDK)
+- MySQL 
+
+## Running MySQL 
+
+Start MySQL:  (Should run on port 3030 by default)
+
+- Connection Settings: (Use defined settings below unless updated in the application.properties)
+    - Username: admin
+    - Password: admin
+- Create Database
+    - Database Name: dummy
+- Add Data to Database:
+    - Run "fake_user_data.sql"
+
 ## Running the application
 
-Run it:
+Run Application:
 
 ```bash
-java - jar
+java - jar final_project-0.0.3-SNAPSHOT.jar
 ```
 
-Build it yourself (you don't need any Java-related tooling):
-
-```bash
-docker build . -t vulnerable-app
-docker run -p 8080:8080 --name vulnerable-app --rm vulnerable-app
-```
+URL for Swagger:
+localhost:8080/swagger.html
 
 ## Exploitation steps
 
