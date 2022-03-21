@@ -12,6 +12,15 @@ Software Required:
 - Java 11 (OpenJDK)
 - MySQL 
 
+Configuration:
+- Set JAVA_HOME path
+
+Check JAVA_HOME path (should point to the directory of the JDK)
+
+```bash
+echo $JAVA_HOME
+```
+
 ## Running MySQL 
 
 Start MySQL:  (Should run on port 3030 by default)
